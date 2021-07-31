@@ -1,4 +1,18 @@
-number1 = int(input("enter the number1 : "))
-number2 = int(input("enter the number2 : "))
-for i in range(number1,number2):
-    print(i)
+n = int(input("Enter the number of elements you'd like to enter: "))
+
+l = list()
+
+for i in range(n):
+
+ x = int(input("Enter the element: "))
+
+ l.append(x)
+
+ num=list()
+for i in l:
+
+ if i > 0:
+
+   num.append(i)
+
+print(num)
